@@ -1,4 +1,9 @@
 package com.example.democrudapp.democrudapp.student;
 
-public class StudentRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
+
+
 }
